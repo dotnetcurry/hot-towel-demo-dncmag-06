@@ -1,0 +1,14 @@
+﻿<section>
+    <h2 class="page-title" data-bind="text: title"></h2>
+    <ul class="thumbnails" data-bind="foreach: tweets">
+        <li class="span5">
+            <div class="tweet row thumbnail">
+                <img class="span1 thumbnail" data-bind="attr: { src: image }" />
+                <div class="span3">
+                    <span class="twitter-user" data-bind="text: user"></span>
+                    <span data-bind="text: tweet"></span>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
